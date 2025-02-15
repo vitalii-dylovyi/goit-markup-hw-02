@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto", "Inter", sans-serif;
+  font-family: "Roboto", sans-serif, "Inter";
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--text-color);
@@ -39,9 +39,9 @@ h6 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.4px;
   color: var(--dark-color);
 }
@@ -55,16 +55,16 @@ h3 {
 
 .site-link {
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  line-height: 1.3125;
+  line-height: 1.17;
   letter-spacing: 0.54px;
+  color: var(--primary-color);
   text-transform: uppercase;
-  color: var(--dark-color);
 }
 
-.site-link span:first-child {
-  color: var(--primary-color);
+.site-link span {
+  color: var(--dark-color);
 }
 
 .nav-link {
@@ -76,6 +76,10 @@ h3 {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--pressed-state);
+}
+
+.nav-address {
+  font-style: normal;
 }
 
 .address-link {
@@ -92,23 +96,19 @@ h3 {
   background-color: var(--dark-color);
 }
 
-.hero-section h1 {
-  color: var(--white-bg-color);
+.hero-title {
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
   letter-spacing: 1.12px;
-}
-
-.team-section {
-  background-color: var(--light-color);
+  color: var(--white-bg-color);
 }
 
 .primary-btn {
   padding: 16px 32px;
-  border-radius: 4px;
   background-color: var(--primary-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white-bg-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -119,6 +119,28 @@ h3 {
   background-color: var(--pressed-state);
 }
 
+.team-section {
+  background-color: var(--light-color);
+}
+
+.team-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team-member {
+  background-color: var(--white-bg-color);
+}
+
+.team-member-role {
+  font-size: 16px;
+}
+
+.portfolio-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .footer {
   background-color: var(--dark-color);
 }
@@ -127,6 +149,6 @@ h3 {
   color: var(--light-color);
 }
 
-.footer p {
+.footer-slogan {
   color: var(--light-color);
 }
