@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif, "Inter";
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--text-color);
@@ -42,7 +42,7 @@ h2 {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 
@@ -78,7 +78,7 @@ h3 {
   color: var(--pressed-state);
 }
 
-.nav-address {
+.header-address {
   font-style: normal;
 }
 
@@ -105,13 +105,12 @@ h3 {
 }
 
 .primary-btn {
-  padding: 16px 32px;
-  background-color: var(--primary-color);
-  color: var(--white-bg-color);
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  color: var(--white-bg-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-color);
 }
 
 .primary-btn:hover,
@@ -145,7 +144,7 @@ h3 {
   background-color: var(--dark-color);
 }
 
-.footer .site-link {
+.footer .site-link .site-link-text {
   color: var(--light-color);
 }
 
