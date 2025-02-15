@@ -1,0 +1,132 @@
+:root {
+  --primary-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --white-bg-color: #ffffff;
+  --light-color: #f4f4fd;
+  --accent-color: #e7e9fc;
+  --pressed-state: #404bbf;
+}
+
+body {
+  font-family: "Roboto", "Inter", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+  background-color: var(--white-bg-color);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-color);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--dark-color);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.site-link {
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.3125;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+
+.site-link span:first-child {
+  color: var(--primary-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--dark-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--pressed-state);
+}
+
+.address-link {
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--pressed-state);
+}
+
+.hero-section {
+  background-color: var(--dark-color);
+}
+
+.hero-section h1 {
+  color: var(--white-bg-color);
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.team-section {
+  background-color: var(--light-color);
+}
+
+.primary-btn {
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white-bg-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.primary-btn:hover,
+.primary-btn:focus {
+  background-color: var(--pressed-state);
+}
+
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer .site-link {
+  color: var(--light-color);
+}
+
+.footer p {
+  color: var(--light-color);
+}
